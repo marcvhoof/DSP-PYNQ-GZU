@@ -14,6 +14,9 @@ rfsoc4x2:
 ultra96:
 	$(MAKE) -C boards/Ultra96/
 	
+gzu_3eg:
+	$(MAKE) -C boards/gzu_3eg/	
+	
 tarball:
 	touch dsp_pynq.tar.gz
 	tar --exclude='.[^/]*' --exclude="dsp_pynq.tar.gz" -czvf dsp_pynq.tar.gz .

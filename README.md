@@ -8,6 +8,7 @@ This repo supports the following boards:
    - Ultra96 v2
    - RFSoC2x2
    - RFSoC4x2
+   - Genesys ZU 3eg
 
 > The Ultra96 version of the design only supports Jupyter Notebooks.
 
