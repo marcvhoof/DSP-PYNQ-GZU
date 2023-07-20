@@ -82,7 +82,7 @@ setup(
     install_requires=[
         'pynq>=2.7',
     ],
-    url='https://github.com/Xilinx/DSP-PYNQ',
+    url='https://github.com/marcvhoof/DSP-PYNQ-GZU',
     license='BSD 3-Clause License',
     packages=find_packages(),
     package_data={'': hw_data_files},
