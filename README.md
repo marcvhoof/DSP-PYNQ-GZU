@@ -23,7 +23,7 @@ To install this repo separately, follow the instructions below.
 We supply a pre-built tarball containing the overlay for that tagged release. This can be installed directly with Pip using the Terminal built into JupyterLab.
 
 ```bash
-pip3 install https://github.com/Xilinx/DSP-PYNQ/releases/download/v3.1/dsp_pynq-3.1.tar.gz
+pip3 install https://github.com/marcvhoof/DSP-PYNQ-GZU/files/12105302/dsp_pynq.tar.gz
 ```
 
 The notebooks should then be available from the Jupyter file browser inside the `dsp_pynq` directory.
@@ -34,7 +34,7 @@ The notebooks should then be available from the Jupyter file browser inside the 
 If you want to rebuild the overlay yourself, this can be done from a Linux PC with Python3 and Vivado 2020.2 installed. Clone this repo and use make to build the overlays for all supported boards.:
 
 ```sh
-git clone https://github.com/Xilinx/DSP-PYNQ.git
+git clone github.com/marcvhoof/DSP-PYNQ-GZU.git
 cd DSP-PYNQ
 make gzu_3eg tarball
 ```
