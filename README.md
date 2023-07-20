@@ -29,14 +29,14 @@ pip3 install https://github.com/Xilinx/DSP-PYNQ/releases/download/v3.1/dsp_pynq-
 The notebooks should then be available from the Jupyter file browser inside the `dsp_pynq` directory.
 
 ## Building the project 
-> NOTE: This must be built on an x86 Linux PC, with Vivado 2020.2 and Python 3 installed and available on $PATH. This cannot be built on the board.
+> NOTE: This must be built on an x86 Linux PC, with Vivado 2022.1 and Python 3 installed and available on $PATH. This cannot be built on the board.
 
 If you want to rebuild the overlay yourself, this can be done from a Linux PC with Python3 and Vivado 2020.2 installed. Clone this repo and use make to build the overlays for all supported boards.:
 
 ```sh
 git clone https://github.com/Xilinx/DSP-PYNQ.git
 cd DSP-PYNQ
-make
+make gzu_3eg tarball
 ```
 
 This will result in a tarball at the top directory named `dsp_pynq.tar.gz`. Copy this onto your board and run the following command to install:
